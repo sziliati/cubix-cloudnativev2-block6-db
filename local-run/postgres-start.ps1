@@ -3,4 +3,4 @@ docker run --name postgres `
     --rm -p 5432:5432 -it `
     --cpus 0.5 --memory 128m `
     --mount type=volume,source=localdb,destination=/var/lib/postgresql/data `
-    postgres:latest
+    postgres:16
